@@ -1,2 +1,2 @@
 # WebDev-Practice
-Practice with typescript,HTML, and CSS
+Practice with TypeSript/JavaScript, HTML, and CSS
