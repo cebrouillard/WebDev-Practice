@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  public playerHealth = 20;
+
   constructor() { }
 
   ngOnInit(): void {

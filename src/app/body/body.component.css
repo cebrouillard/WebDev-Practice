@@ -1,3 +1,6 @@
 .container {
     height: 80vh;
+    border-style: solid;
+    border-color: #13A10E;
+    border-width: 1px;
 }
