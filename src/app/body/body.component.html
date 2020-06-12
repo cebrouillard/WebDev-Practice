@@ -1,3 +1,7 @@
 <div class="container">
-    This is the body <button></button>
+    This is the body.
+    <app-button [class]="'btn-secondary mr-2'" [buttonText]="getButtonText()" [onClick]="showDiv"></app-button>
+    <div *ngIf="divVisible">
+        Here I am! <button>Another button</button>
+    </div>
 </div>
