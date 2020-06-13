@@ -1,0 +1,7 @@
+.typeanimation{
+    animation: type 4s steps(60, end);
+}
+
+@keyframes type{
+    from {width:0;}
+}
