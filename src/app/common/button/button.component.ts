@@ -8,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ButtonComponent {
 
   @Input()
-  public class: string = "";
+  public classes: string = "";
   @Input()
   public type: "submit" | "button" = "button";
   @Input()
@@ -17,6 +17,6 @@ export class ButtonComponent {
   public buttonText = "Test";
 
   getClasses() {
-    return "btn " + this.class;
+    return "btn " + this.classes;
   }
 }

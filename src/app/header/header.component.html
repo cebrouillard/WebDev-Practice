@@ -1,3 +1,6 @@
-<div class="container">
-    Health {{playerHealth}}
+<div class="container d-flex flex-column">
+    <div class="d-flex flex-row mt-1">
+        <app-button classes="btn-secondary mr-2" buttonText="Game Start" [onClick]="goToGameStart"></app-button>
+        <app-button classes="btn-secondary" buttonText="Component Tester" [onClick]="goToComponentTester"></app-button>
+    </div>
 </div>
