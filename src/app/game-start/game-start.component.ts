@@ -6,17 +6,14 @@ import { Router } from '@angular/router';
   templateUrl: './game-start.component.html',
   styleUrls: ['./game-start.component.css']
 })
-export class GameStartComponent implements OnInit {
+export class GameStartComponent {
 
   constructor(private router: Router) { 
     this.goToGame = this.goToGame.bind(this);
   }
 
-  ngOnInit(): void {
-  }
-
-  public goToGame(){
-    this.router.navigateByUrl('/game');
+  public goToGame() {
+    this.router.navigateByUrl("/game")
   }
 
 }
