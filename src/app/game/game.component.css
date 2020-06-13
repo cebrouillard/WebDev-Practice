@@ -1,0 +1,10 @@
+.typeanimation{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 30em;
+    animation: type 1s steps(60, end);
+}
+
+@keyframes type{
+    from {width:0;}
+}

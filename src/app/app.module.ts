@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GameStartComponent } from './game-start/game-start.component';
 import { ComponentTesterComponent } from './component-tester/component-tester.component';
 import { ModalComponent } from './common/modal/modal.component';
+import { GameComponent } from './game/game.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ModalComponent } from './common/modal/modal.component';
     ButtonComponent,
     GameStartComponent,
     ComponentTesterComponent,
-    ModalComponent
+    ModalComponent,
+    GameComponent
   ],
   imports: [
     BrowserModule,
