@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ButtonComponent } from './common/button/button.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { GameStartComponent } from './game-start/game-start.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HeaderComponent,
     BodyComponent,
     FooterComponent,
-    ButtonComponent
+    ButtonComponent,
+    GameStartComponent
   ],
   imports: [
     BrowserModule,
