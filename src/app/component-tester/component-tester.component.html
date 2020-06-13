@@ -1,0 +1,16 @@
+<div class="d-flex flex-column mt-1 mb-1">
+    <h1 class="border-bottom border-success">
+        Component Tester
+    </h1>
+    <h2>
+        App Button
+    </h2>
+    <div>
+        The app button component is used to create all the buttons in the application. Use this componnent instead of the normal button tag.
+    </div>
+    <div class="d-flex">
+        <app-button classes="btn-secondary mr-2" buttonText="Secondary Button" [onClick]="openModal"></app-button>
+        <app-button classes="btn-primary mr-2" buttonText="Primary Button" [onClick]="openModal"></app-button>
+        <app-button classes="btn-danger" buttonText="Error Button" [onClick]="openModal"></app-button>
+    </div>
+</div>

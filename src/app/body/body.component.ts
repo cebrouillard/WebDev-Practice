@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ModalService } from '../common/services/modal-service/modal.service';
 
 @Component({
   selector: 'app-body',
@@ -7,10 +6,4 @@ import { ModalService } from '../common/services/modal-service/modal.service';
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent {
-
-  constructor(private modalService: ModalService) {
-  }
-
-  openModal() {
-  }
 }
