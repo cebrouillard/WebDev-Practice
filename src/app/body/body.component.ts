@@ -1,5 +1,5 @@
-import { Component, ChangeDetectorRef } from '@angular/core';
-import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { Component } from '@angular/core';
+import { ModalService } from '../common/services/modal-service/modal.service';
 
 @Component({
   selector: 'app-body',
@@ -8,17 +8,9 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 })
 export class BodyComponent {
 
-  public divVisible = false;
-
-  constructor(private modalService: NgbModal) {
-    this.showDiv = this.showDiv.bind(this);
+  constructor(private modalService: ModalService) {
   }
 
-  public showDiv(): void {
-    this.modalService.open("Hi")
-  }
-
-  public getButtonText(): string {
-    return this.divVisible ?  'Hide Div' : 'Show Div';
+  openModal() {
   }
 }

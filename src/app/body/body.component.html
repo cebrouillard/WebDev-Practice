@@ -1,8 +1,5 @@
-<div class="container">
+<div class="container d-flex flex-column">
     This is the body.
-    <app-button [class]="'btn-secondary mr-2'" [buttonText]="getButtonText()" [onClick]="showDiv"></app-button>
-    <div *ngIf="divVisible">
-        Here I am! <button>Another button</button>
-    </div>
-    <app-game-start></app-game-start>
+    <app-button [class]="'btn-secondary mr-2'" buttonText="Open Modal" [onClick]="openModal"></app-button>
+    <app-gamestart></app-gamestart>
 </div>
