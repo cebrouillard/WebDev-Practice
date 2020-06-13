@@ -11,6 +11,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GameStartComponent } from './game-start/game-start.component';
 import { ComponentTesterComponent } from './component-tester/component-tester.component';
+import { GameComponent } from './game/game.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ComponentTesterComponent } from './component-tester/component-tester.co
     FooterComponent,
     ButtonComponent,
     GameStartComponent,
-    ComponentTesterComponent
+    ComponentTesterComponent,
+    GameComponent
   ],
   imports: [
     BrowserModule,
